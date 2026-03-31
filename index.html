@@ -1,0 +1,30 @@
+<!--Página de Login-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+</head>
+<body>
+
+    <div class="form-container">
+        <form action="" method="get">
+            <h1>Login</h1>
+            <p>Escolha uma das opções: </p>
+            <label for="name">Nome: </label>
+            <input type="text"  placeholder="Digite seu nome" name="name" id="name" minlength="5">
+            <br>
+            <label for="password">Senha: </label>
+            <input type="password" placeholder="Digite sua senha" name="password" id="password" minlength="5">
+            <br>
+            <button type="submit" name="option" value="admin">
+                <a href="pag_prof.html">Professor: </a>
+            </button>
+            <button type="submit" name="option" value="user">
+                <a href="pag_aluno.html">Aluno: </a>
+            </button>
+        </form>
+    </div>
+</body>
+</html>
