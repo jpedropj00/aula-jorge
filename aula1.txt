@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alunos page</title>
+</head>
+<body>
+
+<table border="1" cellpadding="10">
+    <caption>Notas da DS2</caption>
+
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>1° Bimestre</th>
+            <th>2° Bimestre</th>
+            <th>3° Bimestre</th>
+            <th>4° Bimestre</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <!-- ALUNO 1 -->
+        <tr>
+            <td>João Pedro</td>
+
+            <!-- Função para repetir -->
+            <!-- Bimestres -->
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>8</td></tr>
+                    <tr><td>História</td><td>7</td></tr>
+                    <tr><td>Português</td><td>9</td></tr>
+                    <tr><td>Geografia</td><td>6</td></tr>
+                    <tr><td>Física</td><td>8</td></tr>
+                </table>
+            </td>
+
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>9</td></tr>
+                    <tr><td>História</td><td>8</td></tr>
+                    <tr><td>Português</td><td>7</td></tr>
+                    <tr><td>Geografia</td><td>8</td></tr>
+                    <tr><td>Física</td><td>9</td></tr>
+                </table>
+            </td>
+
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>7</td></tr>
+                    <tr><td>História</td><td>6</td></tr>
+                    <tr><td>Português</td><td>8</td></tr>
+                    <tr><td>Geografia</td><td>7</td></tr>
+                    <tr><td>Física</td><td>8</td></tr>
+                </table>
+            </td>
+
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>10</td></tr>
+                    <tr><td>História</td><td>9</td></tr>
+                    <tr><td>Português</td><td>9</td></tr>
+                    <tr><td>Geografia</td><td>8</td></tr>
+                    <tr><td>Física</td><td>10</td></tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- ALUNO 2 -->
+        <tr>
+            <td>Cristian</td>
+
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>6</td></tr>
+                    <tr><td>História</td><td>7</td></tr>
+                    <tr><td>Português</td><td>6</td></tr>
+                    <tr><td>Geografia</td><td>7</td></tr>
+                    <tr><td>Física</td><td>6</td></tr>
+                </table>
+            </td>
+
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>8</td></tr>
+                    <tr><td>História</td><td>7</td></tr>
+                    <tr><td>Português</td><td>8</td></tr>
+                    <tr><td>Geografia</td><td>7</td></tr>
+                    <tr><td>Física</td><td>8</td></tr>
+                </table>
+            </td>
+
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>7</td></tr>
+                    <tr><td>História</td><td>8</td></tr>
+                    <tr><td>Português</td><td>7</td></tr>
+                    <tr><td>Geografia</td><td>6</td></tr>
+                    <tr><td>Física</td><td>7</td></tr>
+                </table>
+            </td>
+
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>9</td></tr>
+                    <tr><td>História</td><td>8</td></tr>
+                    <tr><td>Português</td><td>9</td></tr>
+                    <tr><td>Geografia</td><td>8</td></tr>
+                    <tr><td>Física</td><td>9</td></tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- ALUNO 3 -->
+        <tr>
+            <td>João Paulo</td>
+
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>9</td></tr>
+                    <tr><td>História</td><td>9</td></tr>
+                    <tr><td>Português</td><td>8</td></tr>
+                    <tr><td>Geografia</td><td>9</td></tr>
+                    <tr><td>Física</td><td>9</td></tr>
+                </table>
+            </td>
+
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>9</td></tr>
+                    <tr><td>História</td><td>8</td></tr>
+                    <tr><td>Português</td><td>9</td></tr>
+                    <tr><td>Geografia</td><td>8</td></tr>
+                    <tr><td>Física</td><td>9</td></tr>
+                </table>
+            </td>
+
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>8</td></tr>
+                    <tr><td>História</td><td>9</td></tr>
+                    <tr><td>Português</td><td>8</td></tr>
+                    <tr><td>Geografia</td><td>9</td></tr>
+                    <tr><td>Física</td><td>8</td></tr>
+                </table>
+            </td>
+
+            <td>
+                <table border="1">
+                    <tr><th>Matéria</th><th>Nota</th></tr>
+                    <tr><td>Matemática</td><td>10</td></tr>
+                    <tr><td>História</td><td>10</td></tr>
+                    <tr><td>Português</td><td>9</td></tr>
+                    <tr><td>Geografia</td><td>9</td></tr>
+                    <tr><td>Física</td><td>10</td></tr>
+                </table>
+            </td>
+        </tr>
+
+    </tbody>
+
+</table>
+
+</body>
+</html> 
